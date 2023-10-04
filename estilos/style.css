@@ -1,0 +1,119 @@
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+:root {
+    --cor1: #091B2A;
+    --cor2: #02ACF3;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--cor1);
+    background-image: url(../home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 15px;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.nome-cabecalho {
+    color: white;
+    padding-right: 550px;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.menu-cabecalho {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.item-cabecalho {
+    color: white;
+}
+
+.item-cabecalho:hover {
+    color: var(--cor2);
+    transition: 1s;
+}
+
+.principal {
+    margin-top: 160px;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    padding-right: 550px;
+    margin-left: 94px;
+}
+
+.titulo-principal {
+    color: white;
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subtitulo-principal {
+    color: var(--cor2);
+    margin-top: -25px;
+    font-family: 'Poppins' , sans-serif;
+    font-weight: bolder ;
+}
+
+.paragrafo-principal {
+    color: white;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 60px;
+}
+
+.item-principal {
+    border: 2px solid var(--cor2);
+    color: var(--cor2);
+    border-radius: 5px;
+    padding: 10px 25px 10px 25px;
+    font-family: 'Poppis' , sans-serif;
+    font-weight: 700;
+}
+
+#item-principal-solo {
+    margin-right: 15px;
+}
+
+.rodape {
+    margin-top: 90px ;
+    margin-left: 100px;
+}
+
+.redesocial-item {
+    border: 2px solid var(--cor2);
+    border-radius: 100px;
+    padding: 13px 5px 1px 5px;
+    margin-inline-end: 20px
+}       
+
+
+
+
+
